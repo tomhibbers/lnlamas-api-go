@@ -27,5 +27,4 @@ func main() {
 	if err != nil {
 		logger.Fatalf("server failed to start: %v", err)
 	}
-
 }
