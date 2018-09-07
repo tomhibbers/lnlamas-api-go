@@ -1,17 +1,18 @@
 package main
 
 import (
-	"lnlamas-api-go/catalog"
-	"lnlamas-api-go/server"
 	"log"
 	"os"
+
+	"github.com/tomhibbers/lnlamas-api-go/catalog"
+	"github.com/tomhibbers/lnlamas-api-go/server"
 
 	"github.com/gorilla/mux"
 )
 
 var CertFile = "certs/server.crt"
 var KeyFile = "certs/server.key"
-var ServiceAddr = ":8009"
+var ServiceAddr = ":8080"
 
 func main() {
 
